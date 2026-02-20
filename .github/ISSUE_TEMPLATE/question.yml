@@ -1,0 +1,30 @@
+name: General Question
+description: Ask a non-bug, non-feature question about using Sharacle.
+title: "[Question]: "
+labels:
+  - question
+body:
+  - type: input
+    id: summary
+    attributes:
+      label: Question summary
+      placeholder: "Example: Is there a way to export my saved posts?"
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: Share context so we can answer accurately.
+      placeholder: What you tried and what you need help with.
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checklist
+      options:
+        - label: I searched existing issues before creating this one.
+          required: true
+        - label: This question does not include private personal or security-sensitive information.
+          required: true

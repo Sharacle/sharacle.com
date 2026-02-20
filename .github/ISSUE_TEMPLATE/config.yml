@@ -1,0 +1,9 @@
+# yaml-language-server: $schema=https://json.schemastore.org/github-issue-config.json
+blank_issues_enabled: false
+contact_links:
+  - name: In-App Feedback
+    url: https://sharacle.com
+    about: Use the in-app feedback/report flow for account-specific or sensitive reports.
+  - name: Private Email Contact
+    url: "mailto:sharacle.services@gmail.com"
+    about: Use email for private concerns that should not be posted publicly.

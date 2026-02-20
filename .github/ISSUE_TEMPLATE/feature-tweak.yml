@@ -1,0 +1,41 @@
+name: Feature Or UX Tweak
+description: Suggest a product improvement or UX change.
+title: "[Tweak]: "
+labels:
+  - enhancement
+body:
+  - type: input
+    id: summary
+    attributes:
+      label: Suggestion summary
+      placeholder: "Example: Add a filter to sort saved posts by date."
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem does this solve?
+      placeholder: Describe the pain point or friction you are experiencing.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+      placeholder: Describe your idea and how it should work.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      placeholder: Any other options or workarounds you tried.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checklist
+      options:
+        - label: I searched existing issues before creating this one.
+          required: true
+        - label: This suggestion is based on real usage of Sharacle.
+          required: true

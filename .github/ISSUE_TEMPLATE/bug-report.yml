@@ -1,0 +1,63 @@
+name: Bug Report
+description: Report a problem you encountered on Sharacle.
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting this. Please provide as much detail as you can.
+  - type: input
+    id: summary
+    attributes:
+      label: Summary
+      description: One-sentence description of the bug.
+      placeholder: "Example: Notifications count does not update after reading a letter."
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: List the exact steps we should follow.
+      placeholder: |
+        1. Go to ...
+        2. Click ...
+        3. Observe ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      placeholder: What you expected to happen.
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+      placeholder: What actually happened.
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      description: Device, OS, browser, and app version if known.
+      placeholder: iPhone 15 / iOS 19 / Safari
+  - type: textarea
+    id: attachments
+    attributes:
+      label: Screenshots or recordings
+      description: Add links or drag files into the issue after creation.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checklist
+      options:
+        - label: I searched existing issues before creating this one.
+          required: true
+        - label: This issue does not include private personal or security-sensitive information.
+          required: true

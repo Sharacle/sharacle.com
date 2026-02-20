@@ -1,0 +1,48 @@
+name: Developer Feedback
+description: Share platform behavior notes, integration feedback, or technical UX observations.
+title: "[Developer Feedback]: "
+labels:
+  - developer-feedback
+body:
+  - type: input
+    id: summary
+    attributes:
+      label: Summary
+      placeholder: "Example: Public pages return inconsistent cache headers."
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: What were you building or testing when you noticed this?
+    validations:
+      required: true
+  - type: textarea
+    id: observation
+    attributes:
+      label: Observation
+      description: What behavior did you observe?
+    validations:
+      required: true
+  - type: textarea
+    id: expectation
+    attributes:
+      label: Expected behavior
+      description: What behavior would be more useful?
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Logs, requests, or screenshots
+      description: Add sanitized examples only. Do not include secrets or personal data.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checklist
+      options:
+        - label: I removed secrets, tokens, and sensitive user information.
+          required: true
+        - label: I searched existing issues before creating this one.
+          required: true
