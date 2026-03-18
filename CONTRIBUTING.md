@@ -19,7 +19,12 @@ private application currently.
 - actual behavior,
 - steps to reproduce,
 - screenshots or short recordings (if relevant),
-- device, browser, and OS details (if relevant).
+- page or URL where it happened,
+- device, browser, and OS details,
+- whether you were using Sharacle in-browser or as an installed PWA.
+
+Because Sharacle is a website/PWA, browser and page context are usually more
+useful than a separate app version number.
 
 ## What Happens Next
 

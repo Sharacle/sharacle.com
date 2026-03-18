@@ -13,8 +13,8 @@ This repository exists to:
 Sharacle is an anxiety-free social platform focused on sharing and cherishing
 meaningful moments.
 
-This is **not** the application source code repository. The production codebase
-is private.
+Sharacle is delivered as a website and installable PWA. This is **not** the
+application source code repository. The production codebase is private.
 
 ## What To Use This Repo For
 
@@ -26,6 +26,8 @@ is private.
 ## How To Submit Feedback
 
 - Open a GitHub issue using one of the templates in this repository.
+- For bug reports, include the page or URL, device, OS, browser, and whether
+  you were using the website in-browser or as an installed PWA.
 - For private or sensitive reports, use in-app reporting or email contact
   instead of posting public details.
 

@@ -44,9 +44,15 @@ body:
   - type: input
     id: environment
     attributes:
-      label: Environment
-      description: Device, OS, browser, and app version if known.
-      placeholder: iPhone 15 / iOS 19 / Safari
+      label: Environment details
+      description: Device, OS, browser, and whether you were using Sharacle in the browser or as an installed PWA.
+      placeholder: iPhone 15 / iOS 19 / Safari / Installed PWA
+  - type: input
+    id: page
+    attributes:
+      label: Page or URL
+      description: The page where the problem happened.
+      placeholder: https://sharacle.com/... or "Home feed"
   - type: textarea
     id: attachments
     attributes:

@@ -32,6 +32,12 @@ body:
       description: What behavior would be more useful?
     validations:
       required: true
+  - type: input
+    id: build_version
+    attributes:
+      label: Build/version
+      description: Optional. Include the deployed version if known, for example from https://sharacle.com/manifest.json.
+      placeholder: "Example: 0.13.2"
   - type: textarea
     id: evidence
     attributes:
